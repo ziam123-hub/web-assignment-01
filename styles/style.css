@@ -11,12 +11,11 @@
 }
 
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 /* hero section */
@@ -25,12 +24,11 @@
     height: 500px;
     background-image: url(../images/Hero-bg.png);
     background-size: cover;
-    border: 2px solid saddlebrown;
 }
 
 .navbar{
     height: 50px;
-    width: 1100px;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,7 @@
 .logo{
     color: #4E47FF;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 /* banner section */
@@ -62,9 +60,8 @@
 
 /* action section */
 .actions{
-    border: 2px solid black;
-    width: 1100px;
-    margin: 100px auto;
+    width: 85%;
+    margin: 50px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +84,29 @@
     margin: 12px 0;
 }
 
+/* Productive Users Section */
+.users-section{
+    width: 65%;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid saddlebrown;
+}
+
+.users-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.users h1{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+.users p{
+    color: rgba(0,0,0,0.5);
+    font-size: 18px;
+}
 
 /* sheared style */
 .btn-primary{
