@@ -38,7 +38,7 @@
 .logo{
     color: #4E47FF;
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 /* banner section */
@@ -185,8 +185,6 @@
 /* Let’s Get In Touch Section */
 
 .get-in-touch{
-    
-    border: 2px solid saddlebrown;
     margin: 20px auto;
     width: 85%;
     display: flex;
@@ -226,7 +224,7 @@ input{
     border: none;
 }
 textarea{
-    padding: 20px 30px;
+   padding: 20px 30px;
    color: rgba(0,0,0,0.5);
    border: none;
 }
@@ -234,4 +232,33 @@ textarea{
     width: 90%;
      margin:10px 0;
      
+}
+
+/* footer style */
+footer{
+    width: 45%;
+    margin: 100px auto 50px auto;
+    text-align: center;
+    color: #8987A1;
+}
+footer h1{
+    font-size: 90px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 20px 30px;
+   
+}
+
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+
+}
+.links{
+    margin: 25px 0;
 }
